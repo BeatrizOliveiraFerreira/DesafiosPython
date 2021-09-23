@@ -1,4 +1,4 @@
-<img src="https://www.tshirtgeek.com.br/wp-content/uploads/2021/03/com001.jpg" width="30rem"/>
+<img src="https://www.tshirtgeek.com.br/wp-content/uploads/2021/03/com001.jpg" width="70rem"/>
 
 # Desafios da aula 4 do curso de Pyhton do professor Gustavo Guanabara
 # Site : 
