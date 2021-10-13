@@ -1,0 +1,7 @@
+velocidade = float(input('Digite a velocidade do carro: '))
+if velocidade > 80:
+    print('Multa de R$:7,00 por quilômetro excedente')
+    excedente = (velocidade - 80) * 7
+    print('Vai custar R$:{:.2f},00 reais'.format(excedente))
+print('Tenha um bom dia, dirija com segurança')
+
