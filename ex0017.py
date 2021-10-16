@@ -11,5 +11,7 @@ aluno4 = input('Digite o nome do quarto aluno: ')
 listaAlunos = [aluno1, aluno2, aluno3, aluno4]
 ordemApresentacao = listaAlunos
 random.shuffle(ordemApresentacao)
-print('A ordem de apresentação é: {}'.format(ordemApresentacao))
+print('A ordem de apresentação é: {}{}{}'.format('\033[1;44m', ordemApresentacao, '\033[m'))
+
+
 
