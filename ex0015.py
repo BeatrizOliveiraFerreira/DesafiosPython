@@ -8,4 +8,5 @@ seno = sin(radians(numero))
 cosseno = cos(radians(numero))
 tangente = tan(radians(numero))
 
-print('O ângulo {} é seno {:.2f}, cosseno {:.2f} e tangente {:.2f}'.format(numero, seno, cosseno, tangente))
+print('O ângulo {}{} é seno {:.2f}, cosseno {:.2f} e tangente {:.2f}{}'.format('\033[43m', numero, seno, cosseno, tangente, '\033[m'))
+
