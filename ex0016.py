@@ -9,7 +9,18 @@ nome3 = input('Digite o terceiro nome: ')
 nome4 = input('Digite o quarto nome: ')
 alunos = [nome1, nome2, nome3, nome4]
 alunoEscolhido = choice(alunos)
-print('O aluno sorteado é: {}'.format(alunoEscolhido))
+print('O aluno sorteado é: {}{}{}'.format('\033[31m', alunoEscolhido, '\033[m'))
+
+
+
+
+
+
+
+
+
+
+
 
 
 
