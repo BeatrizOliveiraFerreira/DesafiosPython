@@ -3,4 +3,5 @@
 
 from math import trunc
 numero = float(input('Digite um número Real: '))
-print('O número em sua parte inteira é = {}'.format(trunc(numero)))
+print('O número em sua parte inteira é = {}{}{}'.format('\033[4;33m', trunc(numero), '\033[m'))
+
