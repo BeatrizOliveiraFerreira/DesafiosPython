@@ -3,11 +3,11 @@ numero2 = float(input('Digite o segundo número: '))
 numero3 = float(input('Digite o terceiro número: '))
 print('=== MAIOR NÚMERO ===')
 if numero1 > numero2 and numero1 > numero3:
-    print('{} é o maior número'.format(numero1))
+    print('{}{}{} é o maior número'.format('\033[31m', numero1, '\033[m'))
 elif numero2 > numero1 and numero2 > numero3:
-    print('{} é o maior número'.format(numero2))
+    print('{}{}{} é o maior número'.format('\033[43m', numero2, '\033[m'))
 elif numero3 > numero1 and numero3 > numero2:
-    print('{} é o maior número'.format(numero3))
+    print('{}{}{} é o maior número'.format('\033[32m', numero3, '\033[m'))
 print('==== MENOR NÚMERO =====')
 if numero1 < numero2 and numero1 < numero3:
     print('{} é o menor número'.format(numero1))
@@ -15,3 +15,8 @@ elif numero2 < numero1 and numero2 < numero3:
     print('{} é o menor número'.format(numero2))
 elif numero3 < numero1 and numero3 < numero2:
     print('{} é o menor número'.format(numero3))
+
+
+
+
+
